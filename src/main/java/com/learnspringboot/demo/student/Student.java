@@ -81,4 +81,8 @@ public class Student {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public Boolean isLocalDateValid(){
+        return dob.isBefore(LocalDate.now());
+    }
 }
