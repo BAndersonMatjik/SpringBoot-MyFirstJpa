@@ -19,6 +19,7 @@ class StudentTest {
 
     @AfterEach
     void tearDown() {
+        student = null;
     }
 
     @Test
